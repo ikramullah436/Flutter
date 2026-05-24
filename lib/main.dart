@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Birthday Greeting Card Generator',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        useMaterial3: false,
+        useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple),
       ),
       home: const GreetingCardPage(),
